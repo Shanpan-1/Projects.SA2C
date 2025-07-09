@@ -1,1 +1,18 @@
 
+class UndoRedoStack:
+    def __init__ (self):
+        self.undo_stack = []
+        self.redo_stack = []
+    
+    def do_action(self, action):
+        self.undo_stack.append(action)
+        print(f"This is the action: {self.do_action}")
+    def undo(self):
+        self.undo_stack.pop()
+        self.redo_stack.append()
+    def redo(self):
+        self.redo_stack.pop()
+        self.undo_stack.append()
+a = UndoRedoStack("Eating")
+b = "food b"
+print(a.)
