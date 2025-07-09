@@ -1,1 +1,22 @@
-# Codes
+class Biome:
+    def __init__ (self, place):
+        self.place = place
+    
+    def on(self):
+        print(f"Hello I am on plant {self.place} Here are the biome I have.")
+
+class Ocean(Biome):
+    def __init__ (self, place, power):
+        super().__init__ (place)
+        self.power = power
+
+    def on(self):
+        print(f"Hello I am on the planet {self.place} and my power is {self.power}")
+
+class Sea_Animal(Ocean):
+    def __init (self, place, power, type):
+        super().__init__(place, power)
+        self.type = type
+    
+    def on(self):
+        print(f"Hello I am a {self.type} and I live on the planet {self.place} which has the {self.power} power")
