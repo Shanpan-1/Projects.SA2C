@@ -19,7 +19,7 @@ class Dessert(Biome):
 
     def on(self):
         print(f"Hello I am the {self.place} biome and I have the {self.heat} power")
-class Sea_Animal(Ocean):
+class Pasific(Ocean):
     def __init (self, place, power, type):
         super().__init__(place, power)
         self.type = type
