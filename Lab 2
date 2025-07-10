@@ -41,7 +41,6 @@ a.redo()
 
 Set1.append("Superficial documents")# Added Superfical Documents to the set
 
-
 a.undo()
 
 a.redo()
