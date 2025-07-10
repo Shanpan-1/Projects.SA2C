@@ -29,7 +29,7 @@ class UndoRedoStack:
         print("Undo and Redo stacks cleared")
 
 print("This was the first set created:", Set1)
-# Using list() to create new objects representing the state of the set
+
 a = UndoRedoStack()
 
 Set1.append("Documetation")     # Added the word 'Documentstation' to the set
