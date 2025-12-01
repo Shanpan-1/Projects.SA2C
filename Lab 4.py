@@ -7,9 +7,8 @@ def Game_active():
 window= tk.Tk()
 window.title("FiSim")
 
-icon = PhotoImage(file='FiSim.png')
-window.iconphoto(True, icon)
-window.config(background="Peach")
+window.geometry("400x300")
+window.config(background="Cyan")
 
 btn = tk.Button(window, text="Click the Button to Start your Adventure!", command=Game_active)
 btn.pack()
